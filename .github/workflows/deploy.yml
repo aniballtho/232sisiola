@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "aniballtho-232sisiola-84"
+          project: "aniballtho-232sisiola-14"
           entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
-          root: "dist"
+          root: "public"
           
           
